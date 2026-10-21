@@ -1,0 +1,12 @@
+{
+ "num": 8,
+ "empresa": "FixPoint",
+ "subtitulo": "reparación de móviles",
+ "contexto": "FixPoint quiere su parte de reparaciones cargado solo, y con el registro de tickets del taller saber **qué reparaciones vuelven en garantía** y cuánto le cuestan.",
+ "preguntas": [
+  "¿Qué **tipo de reparación** deja menos ingreso por hora de trabajo?",
+  "¿Qué **técnico** gasta más en piezas por hora de trabajo?",
+  "¿Qué **puesto de trabajo** acumula más incidencias por cada 100 horas?",
+  "¿Qué tipo de reparación **se reabre más** en garantía y cuánto cuestan esas reaperturas?"
+ ]
+}
