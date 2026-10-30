@@ -24,7 +24,6 @@ Necesitas una cuenta de GitHub, Git, Python 3.10 o superior y un editor (VS Code
    git remote add origin https://github.com/TU-USUARIO/mtide-caso-08-fixpoint.git
    git push -u origin main
    ```
-
 4. Instala y prueba en tu portátil:
 
    ```bash
@@ -34,7 +33,6 @@ Necesitas una cuenta de GitHub, Git, Python 3.10 o superior y un editor (VS Code
    dbt build --project-dir dbt --profiles-dir dbt
    python web/build.py                      # abre _site/index.html en el navegador
    ```
-
 5. En tu repositorio de GitHub, pestaña **Actions**: la primera ejecución tiene que acabar en verde. Tu portal ya está en
    `https://TU-USUARIO.github.io/mtide-caso-08-fixpoint/` (casi vacío: lo irás llenando).
 6. Recomendado: **Settings → Rules → Rulesets → New branch ruleset** para `main`: *Require a pull request before merging*
@@ -60,26 +58,26 @@ ejecución verás un resumen del lakehouse y, en *Artifacts*, un zip con plata y
 
 ## Qué hay en el repositorio
 
-| Ruta | Qué es |
-|---|---|
-| `lakehouse/bronce/` | Lo que llega, tal cual. **No se modifica nunca.** |
-| `lakehouse/plata/`, `lakehouse/oro/` | Los Parquet que escribe dbt. No se suben a git: se reconstruyen en cada ejecución |
-| `dbt/` | El proyecto dbt: `models/plata` (limpieza), `models/oro` (lo construyes tú), `tests/`, `seeds/` |
-| `herramientas/sistema_simulado.py` | El sistema de FixPoint: manda los datos nuevos cuando el encargo lo pide |
-| `paginas/` | Las páginas del portal que escribes tú (Markdown) |
-| `web/build.py` | Comprueba tus páginas y genera el portal en `_site/`, con las cifras leídas del oro |
-| `bi/resumen.py` | El resumen que aparece en cada ejecución de Actions |
-| `.github/workflows/publicar.yml` | Comprobar en cada pull request; publicar en cada cambio de `main` |
+| Ruta                                     | Qué es                                                                                                  |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `lakehouse/bronce/`                    | Lo que llega, tal cual. **No se modifica nunca.**                                                  |
+| `lakehouse/plata/`, `lakehouse/oro/` | Los Parquet que escribe dbt. No se suben a git: se reconstruyen en cada ejecución                       |
+| `dbt/`                                 | El proyecto dbt: `models/plata` (limpieza), `models/oro` (lo construyes tú), `tests/`, `seeds/` |
+| `herramientas/sistema_simulado.py`     | El sistema de FixPoint: manda los datos nuevos cuando el encargo lo pide                                 |
+| `paginas/`                             | Las páginas del portal que escribes tú (Markdown)                                                      |
+| `web/build.py`                         | Comprueba tus páginas y genera el portal en `_site/`, con las cifras leídas del oro                  |
+| `bi/resumen.py`                        | El resumen que aparece en cada ejecución de Actions                                                     |
+| `.github/workflows/publicar.yml`       | Comprobar en cada pull request; publicar en cada cambio de `main`                                      |
 
 ## Las cifras de tus páginas
 
 No escribas cifras a mano: escribe una **marca** y el portal pone el valor real del lakehouse.
 
-| Marca | Qué pone |
-|---|---|
-| `{{ pregunta_1.ingreso_hora[0] }}` | La columna `ingreso_hora` de la primera fila (la 0) del modelo `pregunta_1` |
-| `{{ pregunta_1.tipo_reparacion[1] }}` | La columna `tipo_reparacion` de la segunda fila |
-| `{{ stg_parte.filas }}` | Cuántas filas tiene el modelo `stg_parte` |
+| Marca                                   | Qué pone                                                                       |
+| --------------------------------------- | ------------------------------------------------------------------------------- |
+| `{{ pregunta_1.ingreso_hora[0] }}`    | La columna `ingreso_hora` de la primera fila (la 0) del modelo `pregunta_1` |
+| `{{ pregunta_1.tipo_reparacion[1] }}` | La columna `tipo_reparacion` de la segunda fila                               |
+| `{{ stg_parte.filas }}`               | Cuántas filas tiene el modelo `stg_parte`                                    |
 
 Una página que empieza por `<!-- pendiente … -->` sale como «pendiente» y no se comprueba. Cuando empieces a escribirla,
 borra esa línea y sustituye cada línea del guion (`> ✏️ …`) por tu texto. `python web/build.py` falla si queda alguna
