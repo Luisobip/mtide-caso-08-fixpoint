@@ -1,9 +1,9 @@
 with agregados as (
 	select
 		puesto,
-		sum(incidencias) as incidencias,
-		sum(horas) as horas
-	from {{ ref('stg_parte') }}
+		sum(case when con_incidencia then 1 else 0 end) as incidencias,
+		sum(minutos) / 60.0 as horas
+	from {{ ref('fact_reparaciones') }}
 	where puesto is not null
 	group by puesto
 )

@@ -2,8 +2,8 @@ with gasto_por_tecnico as (
 	select
 		tecnico,
 		sum(piezas_eur) as piezas_eur,
-		sum(horas_trabajo) as horas_trabajo
-	from {{ ref('stg_parte') }}
+		sum(minutos) / 60.0 as horas_trabajo
+	from {{ ref('fact_reparaciones') }}
 	group by tecnico
 )
 
