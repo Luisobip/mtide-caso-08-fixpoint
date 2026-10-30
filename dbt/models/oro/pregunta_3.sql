@@ -3,7 +3,7 @@ with agregados as (
 		puesto,
 		sum(incidencias) as incidencias,
 		sum(horas) as horas
-	from {{ ref('incidencias') }}
+	from {{ ref('stg_parte') }}
 	where puesto is not null
 	group by puesto
 )

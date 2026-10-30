@@ -3,7 +3,7 @@ with gasto_por_tecnico as (
 		tecnico,
 		sum(piezas_eur) as piezas_eur,
 		sum(horas_trabajo) as horas_trabajo
-	from {{ ref('reparaciones') }}
+	from {{ ref('stg_parte') }}
 	group by tecnico
 )
 

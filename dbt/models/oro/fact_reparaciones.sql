@@ -10,4 +10,4 @@ select
 	cast(piezas_eur as numeric(12, 2)) as piezas_eur,
 	cast(importe_eur as numeric(12, 2)) as importe_eur,
 	cast(con_incidencia as boolean) as con_incidencia
-from {{ ref('stg_reparaciones') }}
+from {{ ref('stg_parte') }}
