@@ -40,7 +40,7 @@ cuenta lo que has hecho. Cómo preparar el repositorio y el ciclo de trabajo de 
    > carpeta `fecha_carga=…`, y esa columna te deja comparar una entrega con otra.
    >
    > *Aquí el modelo ni se construye: no hay test que consultar y lo que haya en plata es de la ejecución anterior. Lee bien el mensaje de error (te dice la columna y el valor) y pregunta directamente a bronce cuántas filas son así y en qué entrega.*
-
+   >
 3. Arregla `dbt/models/plata/stg_parte.sql` hasta que `dbt build` quede en verde y el problema esté resuelto (no siempre hay un test que lo grite: a veces tienes que escribirlo tú). Deja un comentario en el SQL: **qué** venía mal y **por qué** lo arreglas así.
 4. Escribe `paginas/1-remesa.md`.
 5. Pull request en tu repositorio, Actions en verde y lo fusionas.
@@ -49,15 +49,15 @@ cuenta lo que has hecho. Cómo preparar el repositorio y el ciclo de trabajo de 
 
 Crea en `dbt/models/oro/` estos modelos, **con estos nombres exactos** (el portal y la jornada de Visualización los leen así):
 
-| Modelo | Qué tiene |
-|---|---|
-| `dim_tecnico` | una fila por cada valor distinto de `tecnico` |
-| `dim_puesto` | una fila por cada valor distinto de `puesto` |
-| `dim_tipo_reparacion` | una fila por cada valor distinto de `tipo_reparacion` |
-| `fact_reparaciones` | una reparación por fila: `resguardo`, `fecha`, `tecnico`, `puesto`, `tipo_reparacion`, `minutos`, `piezas_eur`, `importe_eur`, `con_incidencia` |
-| `pregunta_1` | ¿Qué **tipo de reparación** deja menos ingreso por hora de trabajo? Una fila por `tipo_reparacion`, con `tipo_reparacion` en la primera columna y `ingreso_hora` (€/hora), de menor a mayor |
-| `pregunta_2` | ¿Qué **técnico** gasta más en piezas por hora de trabajo? Una fila por `tecnico`, con `tecnico` en la primera columna y `piezas_hora` (€ de piezas por hora), de mayor a menor |
-| `pregunta_3` | ¿Qué **puesto de trabajo** acumula más incidencias por cada 100 horas? Una fila por `puesto`, con `puesto` en la primera columna y `incidencias_100h` (incidencias por 100 h), de mayor a menor |
+| Modelo                  | Qué tiene                                                                                                                                                                                                     |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `dim_tecnico`         | una fila por cada valor distinto de `tecnico`                                                                                                                                                                |
+| `dim_puesto`          | una fila por cada valor distinto de `puesto`                                                                                                                                                                 |
+| `dim_tipo_reparacion` | una fila por cada valor distinto de `tipo_reparacion`                                                                                                                                                        |
+| `fact_reparaciones`   | una reparación por fila: `resguardo`, `fecha`, `tecnico`, `puesto`, `tipo_reparacion`, `minutos`, `piezas_eur`, `importe_eur`, `con_incidencia`                                             |
+| `pregunta_1`          | ¿Qué **tipo de reparación** deja menos ingreso por hora de trabajo? Una fila por `tipo_reparacion`, con `tipo_reparacion` en la primera columna y `ingreso_hora` (€/hora), de menor a mayor    |
+| `pregunta_2`          | ¿Qué **técnico** gasta más en piezas por hora de trabajo? Una fila por `tecnico`, con `tecnico` en la primera columna y `piezas_hora` (€ de piezas por hora), de mayor a menor                |
+| `pregunta_3`          | ¿Qué **puesto de trabajo** acumula más incidencias por cada 100 horas? Una fila por `puesto`, con `puesto` en la primera columna y `incidencias_100h` (incidencias por 100 h), de mayor a menor |
 
 > 🔎 **Pista · un modelo, un fichero.** Cada modelo de la tabla es un fichero `.sql` en `dbt/models/oro/`
 > con su mismo nombre (`dim_tipo_reparacion.sql`, `fact_reparaciones.sql`…). Dentro va **un solo `select`**, sin
@@ -105,9 +105,9 @@ Escribe `paginas/2-oro.md`: tu estrella y las tres respuestas. Con la remesa nue
 
 1. `python herramientas/sistema_simulado.py fuentes`: llegan estos ficheros a bronce y quedan declarados en `dbt/models/plata/_fuentes.yml`.
 
-| Fichero | Qué es | Columnas |
-|---|---|---|
-| `bronce/garantias/garantias.csv` | días de garantía y coste medio de cada tipo de reparación | tipo_reparacion, garantia_dias, coste_medio_eur |
+| Fichero                                           | Qué es                                                                                                                                 | Columnas                                                                            |
+| ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| `bronce/garantias/garantias.csv`                | días de garantía y coste medio de cada tipo de reparación                                                                            | tipo_reparacion, garantia_dias, coste_medio_eur                                     |
 | `bronce/eventos/eventos_taller_2026-03-13.json` | El sistema del taller exporta un registro con la `apertura`, el `cierre` y, si el cliente vuelve, la `reapertura` de cada ticket. | evento_id, tipo (apertura / cierre / reapertura), ts, ticket, imei, tipo_reparacion |
 
 2. **El giro.** Cuando la conexión falla, la tienda **reenvía la apertura con otro `evento_id`**: mismo ticket, mismo tipo, misma hora. No son duplicados exactos, así que un `unique` de `evento_id` no los ve.
@@ -122,7 +122,7 @@ Escribe `paginas/2-oro.md`: tu estrella y las tres respuestas. Con la remesa nue
    > **agrupar** por la cosa que importa (`group by`, con `count(*) filter (where …)` o `min(…) filter (where …)`),
    > o una **función de ventana** (`row_number()`, `lag()`… `over (partition by … order by …)`) para quedarte
    > con una fila de cada grupo o comparar cada fila con la anterior. Cuál te sirve depende de tu giro.
-
+   >
 3. Modelos de plata: `stg_garantias` y `stg_eventos` (el registro lo lees con `source('bronce', 'eventos')`).
 4. **Test protagonista.** **Cada ticket se abre una sola vez.** Escribe un test singular que devuelva los tickets con más de una `apertura`. Rojo con los datos tal cual; verde cuando sepas qué es un duplicado de verdad.
 
@@ -131,7 +131,7 @@ Escribe `paginas/2-oro.md`: tu estrella y las tres respuestas. Con la remesa nue
    > que **incumplen** la regla; si no devuelve nada, pasa. En esa carpeta tienes dos de ejemplo.
    > Escríbelo **antes** de arreglar los datos y comprueba que se pone rojo: un test que nunca ha fallado
    > no demuestra nada. Con `dbt show --select <tu_test>` ves qué filas lo hacen fallar.
-
+   >
 5. **Pregunta 4** (`dbt/models/oro/pregunta_4.sql`): ¿Qué tipo de reparación **se reabre más** en garantía y cuánto cuestan esas reaperturas?
 
    > 🔎 **Pista · la pregunta 4.** Cruza la fuente nueva con el registro o con tu oro. Antes de unirlos,
@@ -139,11 +139,12 @@ Escribe `paginas/2-oro.md`: tu estrella y las tres respuestas. Con la remesa nue
    > a ese nivel por separado; después las unes. Si unes dos tablas que tienen varias filas por cada zona,
    > los números se multiplican. Mira el resultado con `dbt show --select pregunta_4`: ¿encaja con lo que
    > viste al explorar el registro?
-
+   >
 6. Escribe `paginas/3-fuentes.md`. Pull request, verde, fusionas.
 
    > 🔎 **Pista · la página.** Igual que en el bloque 2: `python web/build.py --check` y `python web/build.py`.
    > Ahora es la cuarta pregunta de la portada la que tiene que dejar de estar en gris.
+   >
 
 ## Bloque 4 · El memo · rama `memo`
 
