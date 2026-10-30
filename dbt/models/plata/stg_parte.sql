@@ -24,7 +24,9 @@ select
     case when s.minutos::integer between 1 and 480 then s.minutos::integer
          else round(m.minutos_mediana)::integer end               as minutos,
     not (s.minutos::integer between 1 and 480)                   as minutos_corregido,
-    s.piezas_eur::double                                              as piezas_eur,
+    try_cast( -- Could not convert string '22,81 €' to DOUBLE when casting from source column piezas_eur
+        replace(replace(trim(s.piezas_eur), ' €', ''), ',', '.') as double
+    ) as piezas_eur,
     s.importe_eur::double                                      as importe_eur,
     s.incidencia,
     s.archivo,
