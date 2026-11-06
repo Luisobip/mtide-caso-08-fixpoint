@@ -1,0 +1,40 @@
+version: 2
+models:
+  - name: dim_tecnico
+    description: "Una fila por técnico"
+    columns:
+      - name: tecnico
+        data_tests: [unique, not_null]
+  - name: dim_puesto
+    description: "Una fila por puesto de trabajo"
+    columns:
+      - name: puesto
+        data_tests: [unique, not_null]
+  - name: dim_tipo_reparacion
+    description: "Una fila por tipo de reparación"
+    columns:
+      - name: tipo_reparacion
+        data_tests: [unique, not_null]
+  - name: fact_reparaciones
+    description: "Una reparación por fila, con sus métricas"
+    columns:
+      - name: resguardo
+        data_tests: [unique, not_null]
+      - name: tecnico
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_tecnico')
+                field: tecnico
+      - name: puesto
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_puesto')
+                field: puesto
+      - name: tipo_reparacion
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_tipo_reparacion')
+                field: tipo_reparacion
