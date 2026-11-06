@@ -13,3 +13,23 @@ models:
           - accepted_values:
               arguments:
                 values: ["pantalla", "batería", "conector de carga", "cámara", "placa base", "altavoz", "daño por agua", "tapa trasera"]
+  - name: stg_garantias
+    description: "Días de garantía y coste medio por tipo de reparación"
+    columns:
+      - name: tipo_reparacion
+        data_tests: [unique, not_null]
+      - name: coste_medio_eur
+        data_tests: [not_null]
+  - name: stg_eventos
+    description: "Registro de tickets del taller, con aperturas reenviadas deduplicadas"
+    columns:
+      - name: evento_id
+        data_tests: [unique, not_null]
+      - name: ticket
+        data_tests: [not_null]
+      - name: tipo
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["apertura", "cierre", "reapertura"]

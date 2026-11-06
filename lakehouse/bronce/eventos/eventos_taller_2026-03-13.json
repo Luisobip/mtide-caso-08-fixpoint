@@ -1,0 +1,256 @@
+{"evento_id": "E000001", "tipo": "apertura", "ts": "2026-03-13T10:02:25", "ticket": "TK-00001", "imei": "356754364900098", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000003", "tipo": "apertura", "ts": "2026-03-13T10:00:52", "ticket": "TK-00002", "imei": "350431839701165", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000005", "tipo": "apertura", "ts": "2026-03-13T10:07:59", "ticket": "TK-00003", "imei": "354579020053786", "tipo_reparacion": "cámara"}
+{"evento_id": "E000007", "tipo": "apertura", "ts": "2026-03-13T10:12:50", "ticket": "TK-00004", "imei": "356195742403598", "tipo_reparacion": "placa base"}
+{"evento_id": "E000002", "tipo": "cierre", "ts": "2026-03-13T11:19:25", "ticket": "TK-00001", "imei": "356754364900098", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000004", "tipo": "cierre", "ts": "2026-03-13T11:30:52", "ticket": "TK-00002", "imei": "350431839701165", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000006", "tipo": "cierre", "ts": "2026-03-13T11:05:59", "ticket": "TK-00003", "imei": "354579020053786", "tipo_reparacion": "cámara"}
+{"evento_id": "E000009", "tipo": "apertura", "ts": "2026-03-13T10:18:40", "ticket": "TK-00005", "imei": "355813626946296", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000011", "tipo": "apertura", "ts": "2026-03-13T10:17:40", "ticket": "TK-00006", "imei": "353966350200751", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000013", "tipo": "apertura", "ts": "2026-03-13T10:22:52", "ticket": "TK-00007", "imei": "351796157926166", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000008", "tipo": "cierre", "ts": "2026-03-13T10:53:50", "ticket": "TK-00004", "imei": "356195742403598", "tipo_reparacion": "placa base"}
+{"evento_id": "E000017", "tipo": "apertura", "ts": "2026-03-13T10:29:29", "ticket": "TK-00008", "imei": "351569744948534", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000021", "tipo": "apertura", "ts": "2026-03-13T10:30:32", "ticket": "TK-00009", "imei": "358392351357192", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000023", "tipo": "apertura", "ts": "2026-03-13T10:29:41", "ticket": "TK-00010", "imei": "354792436632093", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000010", "tipo": "cierre", "ts": "2026-03-13T11:14:40", "ticket": "TK-00005", "imei": "355813626946296", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000012", "tipo": "cierre", "ts": "2026-03-13T11:43:40", "ticket": "TK-00006", "imei": "353966350200751", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000014", "tipo": "cierre", "ts": "2026-03-13T11:32:52", "ticket": "TK-00007", "imei": "351796157926166", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000025", "tipo": "apertura", "ts": "2026-03-13T10:32:13", "ticket": "TK-00011", "imei": "354660581237343", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000030", "tipo": "apertura", "ts": "2026-03-13T10:37:00", "ticket": "TK-00012", "imei": "357280741991362", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000032", "tipo": "apertura", "ts": "2026-03-13T10:34:59", "ticket": "TK-00013", "imei": "350959252219828", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000018", "tipo": "cierre", "ts": "2026-03-13T11:31:29", "ticket": "TK-00008", "imei": "351569744948534", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000022", "tipo": "cierre", "ts": "2026-03-13T11:00:32", "ticket": "TK-00009", "imei": "358392351357192", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000024", "tipo": "cierre", "ts": "2026-03-13T11:59:41", "ticket": "TK-00010", "imei": "354792436632093", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000026", "tipo": "apertura", "ts": "2026-03-13T10:32:13", "ticket": "TK-00011", "imei": "354660581237343", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000034", "tipo": "apertura", "ts": "2026-03-13T10:42:10", "ticket": "TK-00014", "imei": "352241096042903", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000036", "tipo": "apertura", "ts": "2026-03-13T10:46:36", "ticket": "TK-00015", "imei": "352702133864849", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000038", "tipo": "apertura", "ts": "2026-03-13T10:46:15", "ticket": "TK-00016", "imei": "354502270393051", "tipo_reparacion": "placa base"}
+{"evento_id": "E000027", "tipo": "cierre", "ts": "2026-03-13T12:02:13", "ticket": "TK-00011", "imei": "354660581237343", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000031", "tipo": "cierre", "ts": "2026-03-13T11:54:00", "ticket": "TK-00012", "imei": "357280741991362", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000033", "tipo": "cierre", "ts": "2026-03-13T11:11:59", "ticket": "TK-00013", "imei": "350959252219828", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000040", "tipo": "apertura", "ts": "2026-03-13T10:52:38", "ticket": "TK-00017", "imei": "353008661123497", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000042", "tipo": "apertura", "ts": "2026-03-13T10:50:51", "ticket": "TK-00018", "imei": "356459647386871", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000015", "tipo": "reapertura", "ts": "2026-03-13T13:33:52", "ticket": "TK-00007", "imei": "351796157926166", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000035", "tipo": "cierre", "ts": "2026-03-13T11:25:10", "ticket": "TK-00014", "imei": "352241096042903", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000037", "tipo": "cierre", "ts": "2026-03-13T11:33:36", "ticket": "TK-00015", "imei": "352702133864849", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000039", "tipo": "cierre", "ts": "2026-03-13T11:45:15", "ticket": "TK-00016", "imei": "354502270393051", "tipo_reparacion": "placa base"}
+{"evento_id": "E000044", "tipo": "apertura", "ts": "2026-03-13T10:57:40", "ticket": "TK-00019", "imei": "353604239673480", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000046", "tipo": "apertura", "ts": "2026-03-13T10:59:19", "ticket": "TK-00020", "imei": "359384091055477", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000019", "tipo": "reapertura", "ts": "2026-03-13T13:33:29", "ticket": "TK-00008", "imei": "351569744948534", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000041", "tipo": "cierre", "ts": "2026-03-13T11:56:38", "ticket": "TK-00017", "imei": "353008661123497", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000043", "tipo": "cierre", "ts": "2026-03-13T11:24:51", "ticket": "TK-00018", "imei": "356459647386871", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000050", "tipo": "apertura", "ts": "2026-03-13T11:07:34", "ticket": "TK-00021", "imei": "359860465630294", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000052", "tipo": "apertura", "ts": "2026-03-13T11:09:52", "ticket": "TK-00022", "imei": "359327982084435", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000016", "tipo": "cierre", "ts": "2026-03-13T14:58:52", "ticket": "TK-00007", "imei": "351796157926166", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000028", "tipo": "reapertura", "ts": "2026-03-13T13:32:13", "ticket": "TK-00011", "imei": "354660581237343", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000045", "tipo": "cierre", "ts": "2026-03-13T11:41:40", "ticket": "TK-00019", "imei": "353604239673480", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000047", "tipo": "cierre", "ts": "2026-03-13T12:27:19", "ticket": "TK-00020", "imei": "359384091055477", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000054", "tipo": "apertura", "ts": "2026-03-13T11:13:55", "ticket": "TK-00023", "imei": "352471873081078", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000020", "tipo": "cierre", "ts": "2026-03-13T14:36:29", "ticket": "TK-00008", "imei": "351569744948534", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000051", "tipo": "cierre", "ts": "2026-03-13T12:37:34", "ticket": "TK-00021", "imei": "359860465630294", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000053", "tipo": "cierre", "ts": "2026-03-13T11:50:52", "ticket": "TK-00022", "imei": "359327982084435", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000056", "tipo": "apertura", "ts": "2026-03-13T11:22:10", "ticket": "TK-00024", "imei": "358012130841539", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000058", "tipo": "apertura", "ts": "2026-03-13T11:24:34", "ticket": "TK-00025", "imei": "352129009628902", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000060", "tipo": "apertura", "ts": "2026-03-13T11:27:01", "ticket": "TK-00026", "imei": "354553231089175", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000029", "tipo": "cierre", "ts": "2026-03-13T14:14:13", "ticket": "TK-00011", "imei": "354660581237343", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000055", "tipo": "cierre", "ts": "2026-03-13T12:31:55", "ticket": "TK-00023", "imei": "352471873081078", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000062", "tipo": "apertura", "ts": "2026-03-13T11:33:41", "ticket": "TK-00027", "imei": "355070497876179", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000048", "tipo": "reapertura", "ts": "2026-03-13T13:17:19", "ticket": "TK-00020", "imei": "359384091055477", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000057", "tipo": "cierre", "ts": "2026-03-13T11:59:10", "ticket": "TK-00024", "imei": "358012130841539", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000059", "tipo": "cierre", "ts": "2026-03-13T12:37:34", "ticket": "TK-00025", "imei": "352129009628902", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000061", "tipo": "cierre", "ts": "2026-03-13T12:22:01", "ticket": "TK-00026", "imei": "354553231089175", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000064", "tipo": "apertura", "ts": "2026-03-13T11:38:22", "ticket": "TK-00028", "imei": "358761222897685", "tipo_reparacion": "placa base"}
+{"evento_id": "E000063", "tipo": "cierre", "ts": "2026-03-13T12:14:41", "ticket": "TK-00027", "imei": "355070497876179", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000066", "tipo": "apertura", "ts": "2026-03-13T11:48:10", "ticket": "TK-00029", "imei": "352337837233404", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000068", "tipo": "apertura", "ts": "2026-03-13T11:49:56", "ticket": "TK-00030", "imei": "351576770471157", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000070", "tipo": "apertura", "ts": "2026-03-13T11:49:50", "ticket": "TK-00031", "imei": "353914741435850", "tipo_reparacion": "cámara"}
+{"evento_id": "E000049", "tipo": "cierre", "ts": "2026-03-13T15:39:19", "ticket": "TK-00020", "imei": "359384091055477", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000065", "tipo": "cierre", "ts": "2026-03-13T12:22:22", "ticket": "TK-00028", "imei": "358761222897685", "tipo_reparacion": "placa base"}
+{"evento_id": "E000072", "tipo": "apertura", "ts": "2026-03-13T11:52:07", "ticket": "TK-00032", "imei": "358425301370222", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000074", "tipo": "apertura", "ts": "2026-03-13T11:56:09", "ticket": "TK-00033", "imei": "350479539191157", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000067", "tipo": "cierre", "ts": "2026-03-13T12:31:10", "ticket": "TK-00029", "imei": "352337837233404", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000069", "tipo": "cierre", "ts": "2026-03-13T12:57:56", "ticket": "TK-00030", "imei": "351576770471157", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000071", "tipo": "cierre", "ts": "2026-03-13T13:01:50", "ticket": "TK-00031", "imei": "353914741435850", "tipo_reparacion": "cámara"}
+{"evento_id": "E000076", "tipo": "apertura", "ts": "2026-03-13T12:03:55", "ticket": "TK-00034", "imei": "359934663392207", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000078", "tipo": "apertura", "ts": "2026-03-13T12:01:26", "ticket": "TK-00035", "imei": "351052854459598", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000073", "tipo": "cierre", "ts": "2026-03-13T12:33:07", "ticket": "TK-00032", "imei": "358425301370222", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000075", "tipo": "cierre", "ts": "2026-03-13T12:30:09", "ticket": "TK-00033", "imei": "350479539191157", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000080", "tipo": "apertura", "ts": "2026-03-13T12:11:29", "ticket": "TK-00036", "imei": "354570576735080", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000082", "tipo": "apertura", "ts": "2026-03-13T12:13:25", "ticket": "TK-00037", "imei": "353971305918425", "tipo_reparacion": "placa base"}
+{"evento_id": "E000084", "tipo": "apertura", "ts": "2026-03-13T12:09:16", "ticket": "TK-00038", "imei": "357364066752530", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000077", "tipo": "cierre", "ts": "2026-03-13T12:37:55", "ticket": "TK-00034", "imei": "359934663392207", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000079", "tipo": "cierre", "ts": "2026-03-13T12:51:26", "ticket": "TK-00035", "imei": "351052854459598", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000085", "tipo": "apertura", "ts": "2026-03-13T12:09:16", "ticket": "TK-00038", "imei": "357364066752530", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000087", "tipo": "apertura", "ts": "2026-03-13T12:23:15", "ticket": "TK-00039", "imei": "350903196623271", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000089", "tipo": "apertura", "ts": "2026-03-13T12:16:24", "ticket": "TK-00040", "imei": "358010101955088", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000081", "tipo": "cierre", "ts": "2026-03-13T13:38:29", "ticket": "TK-00036", "imei": "354570576735080", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000083", "tipo": "cierre", "ts": "2026-03-13T13:16:25", "ticket": "TK-00037", "imei": "353971305918425", "tipo_reparacion": "placa base"}
+{"evento_id": "E000086", "tipo": "cierre", "ts": "2026-03-13T12:59:16", "ticket": "TK-00038", "imei": "357364066752530", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000093", "tipo": "apertura", "ts": "2026-03-13T12:29:32", "ticket": "TK-00041", "imei": "357190012102184", "tipo_reparacion": "batería"}
+{"evento_id": "E000088", "tipo": "cierre", "ts": "2026-03-13T13:15:15", "ticket": "TK-00039", "imei": "350903196623271", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000090", "tipo": "cierre", "ts": "2026-03-13T13:45:24", "ticket": "TK-00040", "imei": "358010101955088", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000095", "tipo": "apertura", "ts": "2026-03-13T12:33:37", "ticket": "TK-00042", "imei": "358607202945904", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000097", "tipo": "apertura", "ts": "2026-03-13T12:35:35", "ticket": "TK-00043", "imei": "359539490605186", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000094", "tipo": "cierre", "ts": "2026-03-13T13:21:32", "ticket": "TK-00041", "imei": "357190012102184", "tipo_reparacion": "batería"}
+{"evento_id": "E000099", "tipo": "apertura", "ts": "2026-03-13T12:45:21", "ticket": "TK-00044", "imei": "356919877227896", "tipo_reparacion": "batería"}
+{"evento_id": "E000101", "tipo": "apertura", "ts": "2026-03-13T12:47:16", "ticket": "TK-00045", "imei": "359307612468372", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000105", "tipo": "apertura", "ts": "2026-03-13T12:40:10", "ticket": "TK-00046", "imei": "350083889729571", "tipo_reparacion": "batería"}
+{"evento_id": "E000096", "tipo": "cierre", "ts": "2026-03-13T13:12:37", "ticket": "TK-00042", "imei": "358607202945904", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000098", "tipo": "cierre", "ts": "2026-03-13T13:52:35", "ticket": "TK-00043", "imei": "359539490605186", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000107", "tipo": "apertura", "ts": "2026-03-13T12:53:28", "ticket": "TK-00047", "imei": "351588747577176", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000111", "tipo": "apertura", "ts": "2026-03-13T12:53:22", "ticket": "TK-00048", "imei": "355672065861112", "tipo_reparacion": "placa base"}
+{"evento_id": "E000113", "tipo": "apertura", "ts": "2026-03-13T12:53:48", "ticket": "TK-00049", "imei": "352878877425380", "tipo_reparacion": "placa base"}
+{"evento_id": "E000091", "tipo": "reapertura", "ts": "2026-03-13T15:05:24", "ticket": "TK-00040", "imei": "358010101955088", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000100", "tipo": "cierre", "ts": "2026-03-13T13:39:21", "ticket": "TK-00044", "imei": "356919877227896", "tipo_reparacion": "batería"}
+{"evento_id": "E000102", "tipo": "cierre", "ts": "2026-03-13T13:38:16", "ticket": "TK-00045", "imei": "359307612468372", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000106", "tipo": "cierre", "ts": "2026-03-13T14:09:10", "ticket": "TK-00046", "imei": "350083889729571", "tipo_reparacion": "batería"}
+{"evento_id": "E000115", "tipo": "apertura", "ts": "2026-03-13T12:59:11", "ticket": "TK-00050", "imei": "357779350086871", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000117", "tipo": "apertura", "ts": "2026-03-13T13:01:16", "ticket": "TK-00051", "imei": "354621002721675", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000108", "tipo": "cierre", "ts": "2026-03-13T13:31:28", "ticket": "TK-00047", "imei": "351588747577176", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000112", "tipo": "cierre", "ts": "2026-03-13T14:19:22", "ticket": "TK-00048", "imei": "355672065861112", "tipo_reparacion": "placa base"}
+{"evento_id": "E000114", "tipo": "cierre", "ts": "2026-03-13T13:27:48", "ticket": "TK-00049", "imei": "352878877425380", "tipo_reparacion": "placa base"}
+{"evento_id": "E000121", "tipo": "apertura", "ts": "2026-03-13T13:08:09", "ticket": "TK-00052", "imei": "359275389615127", "tipo_reparacion": "batería"}
+{"evento_id": "E000123", "tipo": "apertura", "ts": "2026-03-13T13:10:04", "ticket": "TK-00053", "imei": "355380622250708", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000092", "tipo": "cierre", "ts": "2026-03-13T16:04:24", "ticket": "TK-00040", "imei": "358010101955088", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000116", "tipo": "cierre", "ts": "2026-03-13T13:51:11", "ticket": "TK-00050", "imei": "357779350086871", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000118", "tipo": "cierre", "ts": "2026-03-13T13:31:16", "ticket": "TK-00051", "imei": "354621002721675", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000125", "tipo": "apertura", "ts": "2026-03-13T13:16:10", "ticket": "TK-00054", "imei": "351130296143291", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000127", "tipo": "apertura", "ts": "2026-03-13T13:12:07", "ticket": "TK-00055", "imei": "355669740117036", "tipo_reparacion": "batería"}
+{"evento_id": "E000129", "tipo": "apertura", "ts": "2026-03-13T13:19:08", "ticket": "TK-00056", "imei": "359076947383594", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000103", "tipo": "reapertura", "ts": "2026-03-13T15:08:16", "ticket": "TK-00045", "imei": "359307612468372", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000122", "tipo": "cierre", "ts": "2026-03-13T14:27:09", "ticket": "TK-00052", "imei": "359275389615127", "tipo_reparacion": "batería"}
+{"evento_id": "E000124", "tipo": "cierre", "ts": "2026-03-13T14:39:04", "ticket": "TK-00053", "imei": "355380622250708", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000131", "tipo": "apertura", "ts": "2026-03-13T13:25:59", "ticket": "TK-00057", "imei": "355729685630694", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000133", "tipo": "apertura", "ts": "2026-03-13T13:22:41", "ticket": "TK-00058", "imei": "355223400832993", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000135", "tipo": "apertura", "ts": "2026-03-13T13:27:32", "ticket": "TK-00059", "imei": "351327647254502", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000109", "tipo": "reapertura", "ts": "2026-03-13T15:16:28", "ticket": "TK-00047", "imei": "351588747577176", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000126", "tipo": "cierre", "ts": "2026-03-13T13:53:10", "ticket": "TK-00054", "imei": "351130296143291", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000128", "tipo": "cierre", "ts": "2026-03-13T14:37:07", "ticket": "TK-00055", "imei": "355669740117036", "tipo_reparacion": "batería"}
+{"evento_id": "E000130", "tipo": "cierre", "ts": "2026-03-13T14:47:08", "ticket": "TK-00056", "imei": "359076947383594", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000139", "tipo": "apertura", "ts": "2026-03-13T13:31:27", "ticket": "TK-00060", "imei": "353902665477795", "tipo_reparacion": "cámara"}
+{"evento_id": "E000141", "tipo": "apertura", "ts": "2026-03-13T13:34:25", "ticket": "TK-00061", "imei": "358733375384886", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000143", "tipo": "apertura", "ts": "2026-03-13T13:30:28", "ticket": "TK-00062", "imei": "358127041057345", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000104", "tipo": "cierre", "ts": "2026-03-13T17:40:16", "ticket": "TK-00045", "imei": "359307612468372", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000119", "tipo": "reapertura", "ts": "2026-03-13T15:08:16", "ticket": "TK-00051", "imei": "354621002721675", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000132", "tipo": "cierre", "ts": "2026-03-13T14:52:59", "ticket": "TK-00057", "imei": "355729685630694", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000134", "tipo": "cierre", "ts": "2026-03-13T14:21:41", "ticket": "TK-00058", "imei": "355223400832993", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000136", "tipo": "cierre", "ts": "2026-03-13T14:27:32", "ticket": "TK-00059", "imei": "351327647254502", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000145", "tipo": "apertura", "ts": "2026-03-13T13:40:12", "ticket": "TK-00063", "imei": "357399486448158", "tipo_reparacion": "batería"}
+{"evento_id": "E000147", "tipo": "apertura", "ts": "2026-03-13T13:37:44", "ticket": "TK-00064", "imei": "350233610009274", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000110", "tipo": "cierre", "ts": "2026-03-13T17:17:28", "ticket": "TK-00047", "imei": "351588747577176", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000140", "tipo": "cierre", "ts": "2026-03-13T14:02:27", "ticket": "TK-00060", "imei": "353902665477795", "tipo_reparacion": "cámara"}
+{"evento_id": "E000142", "tipo": "cierre", "ts": "2026-03-13T15:00:25", "ticket": "TK-00061", "imei": "358733375384886", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000144", "tipo": "cierre", "ts": "2026-03-13T14:01:28", "ticket": "TK-00062", "imei": "358127041057345", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000149", "tipo": "apertura", "ts": "2026-03-13T13:47:57", "ticket": "TK-00065", "imei": "352387499193968", "tipo_reparacion": "cámara"}
+{"evento_id": "E000153", "tipo": "apertura", "ts": "2026-03-13T13:51:30", "ticket": "TK-00066", "imei": "357937339609324", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000120", "tipo": "cierre", "ts": "2026-03-13T17:14:16", "ticket": "TK-00051", "imei": "354621002721675", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000146", "tipo": "cierre", "ts": "2026-03-13T14:30:12", "ticket": "TK-00063", "imei": "357399486448158", "tipo_reparacion": "batería"}
+{"evento_id": "E000148", "tipo": "cierre", "ts": "2026-03-13T14:30:44", "ticket": "TK-00064", "imei": "350233610009274", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000155", "tipo": "apertura", "ts": "2026-03-13T13:53:06", "ticket": "TK-00067", "imei": "350255497693761", "tipo_reparacion": "placa base"}
+{"evento_id": "E000137", "tipo": "reapertura", "ts": "2026-03-13T16:10:32", "ticket": "TK-00059", "imei": "351327647254502", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000150", "tipo": "cierre", "ts": "2026-03-13T14:34:57", "ticket": "TK-00065", "imei": "352387499193968", "tipo_reparacion": "cámara"}
+{"evento_id": "E000154", "tipo": "cierre", "ts": "2026-03-13T15:04:30", "ticket": "TK-00066", "imei": "357937339609324", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000159", "tipo": "apertura", "ts": "2026-03-13T14:04:31", "ticket": "TK-00068", "imei": "358735499215375", "tipo_reparacion": "cámara"}
+{"evento_id": "E000156", "tipo": "cierre", "ts": "2026-03-13T14:33:06", "ticket": "TK-00067", "imei": "350255497693761", "tipo_reparacion": "placa base"}
+{"evento_id": "E000161", "tipo": "apertura", "ts": "2026-03-13T14:13:42", "ticket": "TK-00069", "imei": "354894293599604", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000163", "tipo": "apertura", "ts": "2026-03-13T14:13:15", "ticket": "TK-00070", "imei": "358539377808513", "tipo_reparacion": "cámara"}
+{"evento_id": "E000138", "tipo": "cierre", "ts": "2026-03-13T17:32:32", "ticket": "TK-00059", "imei": "351327647254502", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000160", "tipo": "cierre", "ts": "2026-03-13T14:37:31", "ticket": "TK-00068", "imei": "358735499215375", "tipo_reparacion": "cámara"}
+{"evento_id": "E000165", "tipo": "apertura", "ts": "2026-03-13T14:23:30", "ticket": "TK-00071", "imei": "352383252299081", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000167", "tipo": "apertura", "ts": "2026-03-13T14:17:32", "ticket": "TK-00072", "imei": "351176795255382", "tipo_reparacion": "placa base"}
+{"evento_id": "E000151", "tipo": "reapertura", "ts": "2026-03-13T16:46:57", "ticket": "TK-00065", "imei": "352387499193968", "tipo_reparacion": "cámara"}
+{"evento_id": "E000162", "tipo": "cierre", "ts": "2026-03-13T15:09:42", "ticket": "TK-00069", "imei": "354894293599604", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000164", "tipo": "cierre", "ts": "2026-03-13T15:02:15", "ticket": "TK-00070", "imei": "358539377808513", "tipo_reparacion": "cámara"}
+{"evento_id": "E000171", "tipo": "apertura", "ts": "2026-03-13T14:24:43", "ticket": "TK-00073", "imei": "355575988785428", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000173", "tipo": "apertura", "ts": "2026-03-13T14:27:38", "ticket": "TK-00074", "imei": "354986088408831", "tipo_reparacion": "cámara"}
+{"evento_id": "E000175", "tipo": "apertura", "ts": "2026-03-13T14:25:45", "ticket": "TK-00075", "imei": "359647006910491", "tipo_reparacion": "batería"}
+{"evento_id": "E000157", "tipo": "reapertura", "ts": "2026-03-13T16:46:06", "ticket": "TK-00067", "imei": "350255497693761", "tipo_reparacion": "placa base"}
+{"evento_id": "E000166", "tipo": "cierre", "ts": "2026-03-13T15:44:30", "ticket": "TK-00071", "imei": "352383252299081", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000168", "tipo": "cierre", "ts": "2026-03-13T15:23:32", "ticket": "TK-00072", "imei": "351176795255382", "tipo_reparacion": "placa base"}
+{"evento_id": "E000176", "tipo": "apertura", "ts": "2026-03-13T14:25:45", "ticket": "TK-00075", "imei": "359647006910491", "tipo_reparacion": "batería"}
+{"evento_id": "E000178", "tipo": "apertura", "ts": "2026-03-13T14:38:36", "ticket": "TK-00076", "imei": "355362923218763", "tipo_reparacion": "batería"}
+{"evento_id": "E000180", "tipo": "apertura", "ts": "2026-03-13T14:36:54", "ticket": "TK-00077", "imei": "355291097227627", "tipo_reparacion": "batería"}
+{"evento_id": "E000182", "tipo": "apertura", "ts": "2026-03-13T14:38:05", "ticket": "TK-00078", "imei": "357343589308470", "tipo_reparacion": "batería"}
+{"evento_id": "E000152", "tipo": "cierre", "ts": "2026-03-13T18:17:57", "ticket": "TK-00065", "imei": "352387499193968", "tipo_reparacion": "cámara"}
+{"evento_id": "E000172", "tipo": "cierre", "ts": "2026-03-13T15:18:43", "ticket": "TK-00073", "imei": "355575988785428", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000174", "tipo": "cierre", "ts": "2026-03-13T15:13:38", "ticket": "TK-00074", "imei": "354986088408831", "tipo_reparacion": "cámara"}
+{"evento_id": "E000177", "tipo": "cierre", "ts": "2026-03-13T15:51:45", "ticket": "TK-00075", "imei": "359647006910491", "tipo_reparacion": "batería"}
+{"evento_id": "E000184", "tipo": "apertura", "ts": "2026-03-13T14:47:55", "ticket": "TK-00079", "imei": "357417876327360", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000186", "tipo": "apertura", "ts": "2026-03-13T14:44:46", "ticket": "TK-00080", "imei": "355013501800867", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000189", "tipo": "apertura", "ts": "2026-03-13T14:47:12", "ticket": "TK-00081", "imei": "351762908595365", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000158", "tipo": "cierre", "ts": "2026-03-13T17:48:06", "ticket": "TK-00067", "imei": "350255497693761", "tipo_reparacion": "placa base"}
+{"evento_id": "E000179", "tipo": "cierre", "ts": "2026-03-13T15:29:36", "ticket": "TK-00076", "imei": "355362923218763", "tipo_reparacion": "batería"}
+{"evento_id": "E000181", "tipo": "cierre", "ts": "2026-03-13T15:58:54", "ticket": "TK-00077", "imei": "355291097227627", "tipo_reparacion": "batería"}
+{"evento_id": "E000183", "tipo": "cierre", "ts": "2026-03-13T16:01:05", "ticket": "TK-00078", "imei": "357343589308470", "tipo_reparacion": "batería"}
+{"evento_id": "E000187", "tipo": "apertura", "ts": "2026-03-13T14:44:46", "ticket": "TK-00080", "imei": "355013501800867", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000191", "tipo": "apertura", "ts": "2026-03-13T14:52:45", "ticket": "TK-00082", "imei": "352164228650729", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000193", "tipo": "apertura", "ts": "2026-03-13T14:52:38", "ticket": "TK-00083", "imei": "357977102476375", "tipo_reparacion": "batería"}
+{"evento_id": "E000195", "tipo": "apertura", "ts": "2026-03-13T14:52:51", "ticket": "TK-00084", "imei": "358328025619846", "tipo_reparacion": "batería"}
+{"evento_id": "E000169", "tipo": "reapertura", "ts": "2026-03-13T16:48:32", "ticket": "TK-00072", "imei": "351176795255382", "tipo_reparacion": "placa base"}
+{"evento_id": "E000185", "tipo": "cierre", "ts": "2026-03-13T15:58:55", "ticket": "TK-00079", "imei": "357417876327360", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000188", "tipo": "cierre", "ts": "2026-03-13T15:33:46", "ticket": "TK-00080", "imei": "355013501800867", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000190", "tipo": "cierre", "ts": "2026-03-13T16:05:12", "ticket": "TK-00081", "imei": "351762908595365", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000197", "tipo": "apertura", "ts": "2026-03-13T14:57:15", "ticket": "TK-00085", "imei": "350151562160602", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000199", "tipo": "apertura", "ts": "2026-03-13T14:58:02", "ticket": "TK-00086", "imei": "352129723494101", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000203", "tipo": "apertura", "ts": "2026-03-13T14:56:21", "ticket": "TK-00087", "imei": "352035063127122", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000192", "tipo": "cierre", "ts": "2026-03-13T15:55:45", "ticket": "TK-00082", "imei": "352164228650729", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000194", "tipo": "cierre", "ts": "2026-03-13T15:36:38", "ticket": "TK-00083", "imei": "357977102476375", "tipo_reparacion": "batería"}
+{"evento_id": "E000196", "tipo": "cierre", "ts": "2026-03-13T15:55:51", "ticket": "TK-00084", "imei": "358328025619846", "tipo_reparacion": "batería"}
+{"evento_id": "E000205", "tipo": "apertura", "ts": "2026-03-13T15:04:14", "ticket": "TK-00088", "imei": "353529816572115", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000207", "tipo": "apertura", "ts": "2026-03-13T15:07:09", "ticket": "TK-00089", "imei": "352533028090962", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000209", "tipo": "apertura", "ts": "2026-03-13T15:04:38", "ticket": "TK-00090", "imei": "350802566831886", "tipo_reparacion": "batería"}
+{"evento_id": "E000170", "tipo": "cierre", "ts": "2026-03-13T19:01:32", "ticket": "TK-00072", "imei": "351176795255382", "tipo_reparacion": "placa base"}
+{"evento_id": "E000198", "tipo": "cierre", "ts": "2026-03-13T16:06:15", "ticket": "TK-00085", "imei": "350151562160602", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000200", "tipo": "cierre", "ts": "2026-03-13T15:44:02", "ticket": "TK-00086", "imei": "352129723494101", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000204", "tipo": "cierre", "ts": "2026-03-13T15:36:21", "ticket": "TK-00087", "imei": "352035063127122", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000211", "tipo": "apertura", "ts": "2026-03-13T15:16:58", "ticket": "TK-00091", "imei": "353412772772948", "tipo_reparacion": "cámara"}
+{"evento_id": "E000206", "tipo": "cierre", "ts": "2026-03-13T16:09:14", "ticket": "TK-00088", "imei": "353529816572115", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000208", "tipo": "cierre", "ts": "2026-03-13T16:08:09", "ticket": "TK-00089", "imei": "352533028090962", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000210", "tipo": "cierre", "ts": "2026-03-13T15:38:38", "ticket": "TK-00090", "imei": "350802566831886", "tipo_reparacion": "batería"}
+{"evento_id": "E000213", "tipo": "apertura", "ts": "2026-03-13T15:20:11", "ticket": "TK-00092", "imei": "358684349229280", "tipo_reparacion": "cámara"}
+{"evento_id": "E000212", "tipo": "cierre", "ts": "2026-03-13T16:27:58", "ticket": "TK-00091", "imei": "353412772772948", "tipo_reparacion": "cámara"}
+{"evento_id": "E000215", "tipo": "apertura", "ts": "2026-03-13T15:29:29", "ticket": "TK-00093", "imei": "354127948490366", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000217", "tipo": "apertura", "ts": "2026-03-13T15:32:59", "ticket": "TK-00094", "imei": "358667740526088", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000219", "tipo": "apertura", "ts": "2026-03-13T15:32:32", "ticket": "TK-00095", "imei": "355481463659570", "tipo_reparacion": "cámara"}
+{"evento_id": "E000201", "tipo": "reapertura", "ts": "2026-03-13T17:33:02", "ticket": "TK-00086", "imei": "352129723494101", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000214", "tipo": "cierre", "ts": "2026-03-13T16:00:11", "ticket": "TK-00092", "imei": "358684349229280", "tipo_reparacion": "cámara"}
+{"evento_id": "E000221", "tipo": "apertura", "ts": "2026-03-13T15:40:04", "ticket": "TK-00096", "imei": "352635605130574", "tipo_reparacion": "cámara"}
+{"evento_id": "E000216", "tipo": "cierre", "ts": "2026-03-13T16:21:29", "ticket": "TK-00093", "imei": "354127948490366", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000218", "tipo": "cierre", "ts": "2026-03-13T16:46:59", "ticket": "TK-00094", "imei": "358667740526088", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000220", "tipo": "cierre", "ts": "2026-03-13T17:02:32", "ticket": "TK-00095", "imei": "355481463659570", "tipo_reparacion": "cámara"}
+{"evento_id": "E000223", "tipo": "apertura", "ts": "2026-03-13T15:47:22", "ticket": "TK-00097", "imei": "355318258356810", "tipo_reparacion": "batería"}
+{"evento_id": "E000225", "tipo": "apertura", "ts": "2026-03-13T15:46:29", "ticket": "TK-00098", "imei": "359019514897458", "tipo_reparacion": "cámara"}
+{"evento_id": "E000202", "tipo": "cierre", "ts": "2026-03-13T19:49:02", "ticket": "TK-00086", "imei": "352129723494101", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000222", "tipo": "cierre", "ts": "2026-03-13T17:04:04", "ticket": "TK-00096", "imei": "352635605130574", "tipo_reparacion": "cámara"}
+{"evento_id": "E000227", "tipo": "apertura", "ts": "2026-03-13T15:52:26", "ticket": "TK-00099", "imei": "356445990465335", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000224", "tipo": "cierre", "ts": "2026-03-13T16:25:22", "ticket": "TK-00097", "imei": "355318258356810", "tipo_reparacion": "batería"}
+{"evento_id": "E000226", "tipo": "cierre", "ts": "2026-03-13T17:04:29", "ticket": "TK-00098", "imei": "359019514897458", "tipo_reparacion": "cámara"}
+{"evento_id": "E000229", "tipo": "apertura", "ts": "2026-03-13T16:02:59", "ticket": "TK-00100", "imei": "353267956959144", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000231", "tipo": "apertura", "ts": "2026-03-13T16:05:38", "ticket": "TK-00101", "imei": "359105253009707", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000233", "tipo": "apertura", "ts": "2026-03-13T16:00:09", "ticket": "TK-00102", "imei": "353380222211585", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000228", "tipo": "cierre", "ts": "2026-03-13T16:59:26", "ticket": "TK-00099", "imei": "356445990465335", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000235", "tipo": "apertura", "ts": "2026-03-13T16:12:50", "ticket": "TK-00103", "imei": "355812632882981", "tipo_reparacion": "cámara"}
+{"evento_id": "E000230", "tipo": "cierre", "ts": "2026-03-13T17:30:59", "ticket": "TK-00100", "imei": "353267956959144", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000232", "tipo": "cierre", "ts": "2026-03-13T17:27:38", "ticket": "TK-00101", "imei": "359105253009707", "tipo_reparacion": "daño por agua"}
+{"evento_id": "E000234", "tipo": "cierre", "ts": "2026-03-13T17:23:09", "ticket": "TK-00102", "imei": "353380222211585", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000237", "tipo": "apertura", "ts": "2026-03-13T16:22:41", "ticket": "TK-00104", "imei": "354054454441008", "tipo_reparacion": "cámara"}
+{"evento_id": "E000239", "tipo": "apertura", "ts": "2026-03-13T16:19:57", "ticket": "TK-00105", "imei": "356337570925668", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000236", "tipo": "cierre", "ts": "2026-03-13T17:37:50", "ticket": "TK-00103", "imei": "355812632882981", "tipo_reparacion": "cámara"}
+{"evento_id": "E000241", "tipo": "apertura", "ts": "2026-03-13T16:30:16", "ticket": "TK-00106", "imei": "356133868628686", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000243", "tipo": "apertura", "ts": "2026-03-13T16:24:25", "ticket": "TK-00107", "imei": "358917082923933", "tipo_reparacion": "placa base"}
+{"evento_id": "E000238", "tipo": "cierre", "ts": "2026-03-13T17:19:41", "ticket": "TK-00104", "imei": "354054454441008", "tipo_reparacion": "cámara"}
+{"evento_id": "E000240", "tipo": "cierre", "ts": "2026-03-13T16:50:57", "ticket": "TK-00105", "imei": "356337570925668", "tipo_reparacion": "pantalla"}
+{"evento_id": "E000245", "tipo": "apertura", "ts": "2026-03-13T16:39:17", "ticket": "TK-00108", "imei": "350342601429805", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000242", "tipo": "cierre", "ts": "2026-03-13T17:51:16", "ticket": "TK-00106", "imei": "356133868628686", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000244", "tipo": "cierre", "ts": "2026-03-13T17:38:25", "ticket": "TK-00107", "imei": "358917082923933", "tipo_reparacion": "placa base"}
+{"evento_id": "E000247", "tipo": "apertura", "ts": "2026-03-13T16:43:28", "ticket": "TK-00109", "imei": "358043427919896", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000249", "tipo": "apertura", "ts": "2026-03-13T16:43:30", "ticket": "TK-00110", "imei": "351592800654004", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000251", "tipo": "apertura", "ts": "2026-03-13T16:40:56", "ticket": "TK-00111", "imei": "358419151059082", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000246", "tipo": "cierre", "ts": "2026-03-13T17:19:17", "ticket": "TK-00108", "imei": "350342601429805", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000255", "tipo": "apertura", "ts": "2026-03-13T16:55:07", "ticket": "TK-00112", "imei": "358396219619345", "tipo_reparacion": "placa base"}
+{"evento_id": "E000248", "tipo": "cierre", "ts": "2026-03-13T17:59:28", "ticket": "TK-00109", "imei": "358043427919896", "tipo_reparacion": "altavoz"}
+{"evento_id": "E000250", "tipo": "cierre", "ts": "2026-03-13T17:24:30", "ticket": "TK-00110", "imei": "351592800654004", "tipo_reparacion": "tapa trasera"}
+{"evento_id": "E000252", "tipo": "cierre", "ts": "2026-03-13T17:50:56", "ticket": "TK-00111", "imei": "358419151059082", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000256", "tipo": "cierre", "ts": "2026-03-13T18:05:07", "ticket": "TK-00112", "imei": "358396219619345", "tipo_reparacion": "placa base"}
+{"evento_id": "E000253", "tipo": "reapertura", "ts": "2026-03-13T19:37:56", "ticket": "TK-00111", "imei": "358419151059082", "tipo_reparacion": "conector de carga"}
+{"evento_id": "E000254", "tipo": "cierre", "ts": "2026-03-13T21:32:56", "ticket": "TK-00111", "imei": "358419151059082", "tipo_reparacion": "conector de carga"}
